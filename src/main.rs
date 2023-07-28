@@ -1,7 +1,6 @@
 use iced::{Application, Settings};
 use iced::widget::{button, text, container, column};
-use iced::window;
-use iced::{Element, Renderer, Theme, Command, executor, Alignment, Length};
+use iced::{Element, Renderer, Theme, Command, executor, Alignment, Length, window};
 
 const DEFAULT_WINDOW_SIZE: (u32, u32) = (220, 220);
 fn main() {
